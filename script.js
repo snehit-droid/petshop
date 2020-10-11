@@ -8,7 +8,7 @@ var Available = /** @class */ (function () {
         console.log("Pets available for adaption: ");
         for (var _i = 0, _a = this.available; _i < _a.length; _i++) {
             var pets = _a[_i];
-            console.log(pets.count + " " + pets.animal + " of " + pets.age + ", breed: " + pets.breed + ".");
+            console.log(pets.count + " " + pets.animal + " of age " + pets.age + ", breed: " + pets.breed + ".");
         }
     };
     Available.prototype.check = function (list) {

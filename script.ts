@@ -18,7 +18,7 @@ class Available{
        console.log('');
        console.log("Pets available for adaption: ");
        for(const pets of this.available){
-           console.log(`${pets.count} ${pets.animal} of ${pets.age}, breed: ${pets.breed}.`);
+           console.log(`${pets.count} ${pets.animal} of age ${pets.age}, breed: ${pets.breed}.`);
        }
    }
    check(list: Array<String>){
